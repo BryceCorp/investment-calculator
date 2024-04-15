@@ -19,7 +19,7 @@ export default function UserInpt() {
             </div>
             <div className="input-group">
                 <p>
-                    <label htmlFor="expectedReturn">Expected Return</label>
+                    <label htmlFor="expectedReturn">Expected Return (%)</label>
                     <input type="text" name="expectedReturn" onChange={handleInputChange} />
                 </p>
                 <p>

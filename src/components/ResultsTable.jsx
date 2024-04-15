@@ -14,7 +14,7 @@ export default function ResultsTable() {
     });
 
     return (
-        <section className="center" id="result">
+        <section id="result">
             <table>
                 <thead>
                     <tr>
@@ -22,7 +22,7 @@ export default function ResultsTable() {
                         <th>Investment Value</th>
                         <th>Interest (Year)</th>
                         <th>Total Interest</th>
-                        <th>Invested Capital</th>
+                        <th>Invested Capital (PA)</th>
                     </tr>
                 </thead>
                 <tbody>
